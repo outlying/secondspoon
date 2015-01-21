@@ -8,7 +8,7 @@ buildscript {
     }
 }
 
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'spoon'
 
 android {
@@ -16,7 +16,6 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.antyzero.secondspoon"
         minSdkVersion 15
         targetSdkVersion 21
         versionCode 1
